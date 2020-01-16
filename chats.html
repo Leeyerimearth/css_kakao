@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chats</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="top-header">
+      <div class="header_top">
+        <div class="header_column">
+          <i class="fas fa-plane"></i>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="header_column">
+          <div class="header_time">18:38</div>
+        </div>
+        <div class="header_column">
+          <i class="far fa-moon"></i>
+          <i class="fab fa-bluetooth"></i>
+          <span class="header_battery">66%</span>
+          <i class="fas fa-battery-three-quarters"></i>
+        </div>
+      </div>
+
+      <div class="header_bottom">
+        <div class="header_column">
+          <span class="header_text">Edit</span>
+        </div>
+        <div class="header_column">
+          <span class="header_text">Chats
+            <i class="fas fa-caret-down"></i>
+          </span>
+        </div>
+        <div class="header_column"></div>
+      </div>
+    </header>
+
+    <main class="chats">
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Find friends, chats, Plus Friends">
+      </div>
+
+      <ul class="chats_list">
+        <li class="chats_chat">
+          <a href="chat.html">
+            <div class="chat_content">
+              <div class="chat_preview">
+                <img src="images/avatar.jpg" alt="">
+                <h3 class="chat_user">Nicolas</h3>
+                <span class="chat_last-message">Hello! This is a test message</span>
+              </div>
+            </div>
+            <div class="chat_date-time">
+              15:55
+            </div>
+          </a>
+        </li>
+
+        <li class="chats_chat">
+          <div class="chat_content">
+            <a href="chat.html">
+              <div class="chat_preview">
+                <img src="images/kakao.jpg" alt="">
+                <h3 class="chat_user">KakaoTalk</h3>
+                <span class="chat_last-message">[KakaoTalk PC]PC로 로그인하셨습니다.</span>
+              </div>
+            </div>
+            <div class="chat_date-time">
+              Jul 29
+            </div>
+            </a>
+        </li>
+
+      </ul>
+
+      <div class="chat_btn">
+        <i class="fa fa-comment"></i>
+      </div>
+
+    </main>
+
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar_bar">
+        <i class="fas fa-user-friends"></i>
+        <span class="tab-bar_title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar_bar">
+        <i class="fas fa-comment"></i>
+        <span class="tab-bar_title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar_bar">
+        <i class="fas fa-search"></i>
+        <span class="tab-bar_title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar_bar">
+        <i class="fas fa-ellipsis-h"></i>
+        <span class="tab-bar_title">More</span>
+      </a>
+    </nav>
+
+  </body>
+</html>
